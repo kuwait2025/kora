@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تذاكر الدوري</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgba(0, 0, 0, 0.834);
+      font-family: Arial, sans-serif;
+    }
+
+    #hedardiv {
+      background-color: rgba(0, 0, 0, 0.834);
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #imghedr {
+      max-height: 70px;
+    }
+
+    #text1 {
+      font-size: 28px;
+      text-align: center;
+      color: azure;
+      margin: 20px 10px;
+    }
+
+    .ticket {
+      width: 90%;
+      max-width: 400px;
+      margin: 20px auto;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 15px;
+      background-color: #f9f9f9;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .team-name {
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .stadium, .time {
+      text-align: center;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .price-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: orange;
+      border-radius: 6px;
+      padding: 8px 12px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      background-color: white;
+      color: orange;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      border: 1px solid orange;
+    }
+
+    .buy-btn:hover {
+      background-color: #ffe5b4;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div id="hedardiv">
+    <img id="imghedr" src="https://www.eventat.com/assets/img/logo.png" alt="الشعار">
+  </div>
+
+  <h1 id="text1">تذاكر دوري زين</h1>
+
+  <div class="ticket">
+    <div class="header">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0NO7jz9UVKzchngGqGIc8F6-771C51Ixeng&s" alt="الوحدة" width="30">
+      <div class="team-name">خيطان VS اليرموك</div>
+      <img src="https://pbs.twimg.com/profile_images/1072204145929715712/lGfgncfd_400x400.jpg" alt="الأخدود" width="30">
+    </div>
+
+    <div class="stadium">   الصداقة والسلام  </div>
+    <div class="time">    يوم السبت الموافق 10/5, الساعة 7:10 م </div>
+
+    <div class="price-bar">
+      <span>5 دينار</span>
+      <button class="buy-btn">شراء</button>
+    </div>
+  </div>
+
+
+
+
+  <div class="ticket">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/ar/e/ec/Kazmasc.gif" alt="الوحدة" width="30">
+      <div class="team-name">كاظمة VS النصر</div>
+      <img src="https://upload.wikimedia.org/wikipedia/ar/thumb/6/62/NaserClub.png/250px-NaserClub.png" alt="الأخدود" width="30">
+    </div>
+
+    <div class="stadium">   ستاد عبدالله الخليفة   </div>
+    <div class="time">    يوم السبت الموافق 10/5, الساعة 7:10 م </div>
+
+    <div class="price-bar">
+      <span>5 دينار</span>
+      <button class="buy-btn">شراء</button>
+    </div>
+  </div> 
+
+  <div class="ticket">
+    <div class="header">
+      <img src="https://pbs.twimg.com/profile_images/1632823940010717186/7c7y1_SB_400x400.jpg" alt="الوحدة" width="30">
+      <div class="team-name">نادي السالمية VS التضامن</div>
+      <img src="https://upload.wikimedia.org/wikipedia/ar/1/15/Al-TadamonClub.png" alt="الأخدود" width="30">
+    </div>
+
+    <div class="stadium">  ملعب علي صباح السالم  </div>
+    <div class="time">    يوم الأحد الموافق 11/5, الساعة 7:10 م </div>
+
+    <div class="price-bar">
+      <span>5 دينار</span>
+      <button class="buy-btn">شراء</button>
+    </div>
+  </div> 
+
+
+  <div class="ticket">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/ar/thumb/a/a2/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A.svg/1200px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A.svg.png" alt="الوحدة" width="30">
+      <div class="team-name">العربي  VS الكويت</div>
+      <img src="https://upload.wikimedia.org/wikipedia/ar/6/66/KuwaitSportsClub.png" alt="الأخدود" width="30">
+    </div>
+
+    <div class="stadium">  ستاد جابر الأحمد الدولي </div>
+    <div class="time">    يوم الأحد الموافق 11/5, الساعة 7:10 م </div>
+
+    <div class="price-bar">
+      <span>5 دينار</span>
+      <button class="buy-btn">شراء</button>
+    </div>
+  </div> 
+
+
+
+  <div class="ticket">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/ar/thumb/a/ae/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9_%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.svg/1200px-%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9_%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.svg.png" alt="الوحدة" width="30">
+      <div class="team-name">القادسية  VS الفحيحيل</div>
+      <img src="https://upload.wikimedia.org/wikipedia/ar/9/9a/Fahaheel.png" alt="الأخدود" width="30">
+    </div>
+
+    <div class="stadium">  Sulaibikhat Sports Club</div>
+    <div class="time">    يوم الأحد الموافق 11/5, الساعة 7:10 م </div>
+
+    <div class="price-bar">
+      <span>5 دينار</span>
+      <button class="buy-btn">شراء</button>
+    </div>
+  </div>
+  
+  <!-- أضف هذا السكربت داخل <body> أو في نهاية الصفحة قبل </body> -->
+<script>
+  // احصل على جميع أزرار الشراء
+  document.querySelectorAll('.buy-btn').forEach(function(button) {
+    button.addEventListener('click', function() {
+      // حدد الصفحة الجديدة التي سيتم التوجيه إليها
+      window.location.href = 'form1.html'; // يمكنك تغيير الرابط حسب الحاجة
+    });
+  });
+</script>
+
+</body>
+</html>
